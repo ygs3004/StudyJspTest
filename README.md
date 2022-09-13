@@ -1,6 +1,7 @@
 <h3>StudyJspTest</h3>
 
-<ul> 구현
+<h4>구현목록</h4>
+<ul> 
   <li>회원가입</li>
   <li>회원수정</li>
   <li>회원삭제</li>
