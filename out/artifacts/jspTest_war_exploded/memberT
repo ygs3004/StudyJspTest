@@ -1,0 +1,14 @@
+CREATE TABLE memberT(
+id VARCHAR2(10) not null,
+pw VARCHAR2(10) not null,
+name VARCHAR2(24),
+gender VARCHAR2(3),
+phone VARCHAR2(30),
+email VARCHAR2(30)
+);
+
+INSERT INTO memberT VALUES('hong','1234','홍길동','남','010-111-1111','hong@naver.com');
+
+COMMIT;
+
+SELECT * FROM memberT;
